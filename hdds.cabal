@@ -4,8 +4,8 @@ Synopsis:            A wrapper around Randy Reddig's ddslib
 Description:         DDS library based on code from Nvidia's DDS example
 License:             PublicDomain
 License-file:        LICENSE
-Author:              Pierric Wu
-Maintainer:          w (dot) pierric (at) gmail (dot) com
+Author:              Wu Jiasen
+Maintainer:          starocean (dot) wx (at) gmail (dot) com
 Homepage:            
 Stability:           Experimental
 Category:            Codec
