@@ -1,0 +1,23 @@
+Name:                hdds
+Version:             0.1
+Synopsis:            A wrapper around Randy Reddig's ddslib
+Description:         DDS library based on code from Nvidia's DDS example
+License:             PublicDomain
+License-file:        LICENSE
+Author:              Pierric Wu
+Maintainer:          w (dot) pierric (at) gmail (dot) com
+Homepage:            
+Stability:           Experimental
+Category:            Codec
+Tested-With:         GHC == 6.10.3
+Cabal-Version:       >= 1.2
+Build-Type:          Simple
+
+Library
+  Build-Depends:       base, bytestring
+  Exposed-Modules:     Codec.Image.DDS
+  Hs-Source-Dirs:      .
+  Extensions:          ForeignFunctionInterface
+  ghc-options:         -Wall
+  C-Sources:           cbits/ddslib.c 
+  Include-Dirs:        cbits  
